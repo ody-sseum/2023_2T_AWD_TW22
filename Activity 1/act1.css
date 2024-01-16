@@ -33,9 +33,12 @@ nav {
     opacity: 0.6;
 }
 
-li {
+.links>ul>li {
     letter-spacing: 5px;
     padding: 0px 50px 0px 50px;
+}
+
+li {
     list-style: none;
 }
 
@@ -43,7 +46,6 @@ li {
     position: relative;
     width: 100%;
     font-family: 'Mulish';
-    font-weight: 400;
     background-color: #0E1111;
     height: 500px;
 }
@@ -65,12 +67,17 @@ li {
 .image-name {
     font-size: 3em;
     letter-spacing: 7px;
+    font-weight: 400;
+}
+
+.image-desc {
+    font-weight: 200;
 }
 
 .resume-body {
     position: relative;
     color: #0E1111;
-    padding: 50px 0px 0px 200px;
+    padding: 50px 0px 50px 200px;
     max-width: 100%;
 }
 
@@ -86,12 +93,30 @@ li {
 
 .resume-header {
     font-family: Mulish;
-    font-weight: 400;
-    letter-spacing: 5px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin: 15px 0px 5px 0px;
 }
 
 .resume-list {
     font-family: Mulish;
+    font-size: 20px;
+    padding: 0px 100px 0px 25px;
+}
+
+.resume-subhead {
+    list-style-type: square;
+    font-size: 18px;
+    color: #0E1111;
+    font-weight: 600;
+}
+
+.subhead-body {
+    padding: 5px 0px 20px 50px;
+}
+
+.resume-list, .subhead-body {
+    letter-spacing: 1px;
     font-weight: 200;
-    font-size: 25px;
+    font-size: 17px;
 }
