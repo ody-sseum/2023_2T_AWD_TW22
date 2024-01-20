@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #FEFEFA;
+}
+
+nav {
+    display: grid;
+    font-family: Lato, Montserrat;
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 100%;
+}
+
+.links {
+    color: #0E1111;
+    display: flex;
+    padding: 35px 0px 35px 50px;
+}
+
+.links>ul {
+    display: flex;
+    list-style: none;
+    width: 90%;
+}
+
+.links>ul>li:hover {
+    opacity: 0.6;
+}
+
+.links>ul>li {
+    letter-spacing: 5px;
+    padding: 0px 50px 0px 50px;
+}
+
+#color-change {
+    position: fixed;
+    overflow: hidden;
+    letter-spacing: 1px;
+    font-family: Lato, Montserrat;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FEFEFA;
+    background-color: #0E1111;
+    text-align: right;
+    word-wrap: break-word;
+    padding: 60px 70px 0px 10px;
+    outline: 3px solid;
+    outline-color: #FEFEFA;
+    border: none;
+    top: 0;
+    right: 0;
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+    transform: translate(65px, -65px);
+    z-index: 2;
+}
+
+#color-change:hover {
+    opacity: 0.8;
+}
+
+li {
+    list-style: none;
+}
+
+.image{
+    position: relative;
+    width: 100%;
+    font-family: 'Mulish';
+    background-color: #0E1111;
+    height: 500px;
+}
+
+.image>img {
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+    opacity: 0.35;
+}
+
+.image-text {
+    position: absolute;
+    color: #FEFEFA;
+    top: 150px;
+    left: 15%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 80%;
+}
+
+.image-name {
+    font-size: 3em;
+    letter-spacing: 7px;
+    font-weight: 400;
+}
+
+.image-desc {
+    font-weight: 200;
+}
+
+.resume-body {
+    position: relative;
+    color: #0E1111;
+    padding: 50px 0px 50px 200px;
+    max-width: 100%;
+}
+
+.title-decor {
+    position: absolute;
+    background-color: #0E1111;
+    margin-top: 7px;
+    height: 15px;
+    left: -20px;
+    width: 200px;
+    border: none;
+}
+
+.resume-header {
+    font-family: Mulish;
+    font-size: 1.5rem;
+    font-weight: 900;
+    width: 100%;
+    letter-spacing: 3px;
+    margin: 15px 0px 5px 0px;
+}
+
+.resume-list {
+    font-family: Mulish;
+    font-size: 20px;
+    padding: 0px 100px 0px 25px;
+}
+
+.resume-subhead {
+    list-style-type: square;
+    font-size: 18px;
+    color: #0E1111;
+    font-weight: 600;
+}
+
+.subhead-body {
+    padding: 5px 0px 20px 50px;
+}
+
+.resume-list, .subhead-body {
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 17px;
+}
